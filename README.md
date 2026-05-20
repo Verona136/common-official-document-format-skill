@@ -13,9 +13,23 @@
 - 页码：四号仿宋_GB2312，格式 `-1-`，右下角，奇偶页不同
 - 清理多余空行、段首空格、段尾空格、重复空格和残留自动编号
 
-## 安装
+## 安装脚本
 
-复制整个 `common-official-document-format-skill` 文件夹到你的 Codex skills 目录，例如：
+```bash
+bash install.sh --target codex
+bash install.sh --target claude
+bash install.sh --target openclaw
+```
+
+如需覆盖已安装版本：
+
+```bash
+bash install.sh --target codex --force
+```
+
+## 手动安装
+
+也可以复制整个 `common-official-document-format-skill` 文件夹到你的 Codex skills 目录，例如：
 
 ```bash
 cp -R common-official-document-format-skill ~/.codex/skills/common-official-document-format
