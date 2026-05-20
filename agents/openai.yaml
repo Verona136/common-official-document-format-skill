@@ -1,0 +1,4 @@
+interface:
+  display_name: "常用公文格式技能"
+  short_description: "看到公文、通知等内容时按常用公文格式输出Word。"
+  default_prompt: "请按常用公文格式输出Word文档。"
